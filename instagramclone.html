@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <title>Instagram</title>
+
+ <meta charset="utf-8">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!----add icon link---->
+
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+
+
+ <style>
+   @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+  *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+
+  }
+  .main-container{
+      width:100%;
+      max-width:768px;
+      margin:auto;
+      height:100%;
+
+   }
+
+  .nav-top{
+
+      width:100%;
+      max-width:768px;
+      margin:auto;
+      top:0;
+      position:fixed;
+
+  }
+  .nav-top ul{
+
+      list-style-type:none;
+      margin:0;
+      padding:0;
+      overflow:hidden;
+      height:50px;
+      background-color:#f0f0f0;
+
+  }
+  li
+  {
+      float:left;
+  }
+  .nav-start
+  {
+
+      width:15%;
+
+  }
+  .nav-img
+  {
+
+      width: 70%;
+
+  }
+  .nav-end
+  {
+
+      width:10%;
+
+  }
+  li a
+  {
+      display:block;
+      text-decoration:none;
+      text-align:center;
+      line-height:50px;
+      color:#ccc;
+      cursor:pointer;
+
+  }
+
+
+  li a img{
+
+      width:100px;
+      height:50px;
+  }
+
+  .container{
+
+      display:none;
+
+  }
+
+  /*.container.actives{
+
+      display:inherit;
+      width:768px;
+      margin:auto;
+      height:100%;
+      top:50px;
+      position:fixed;
+      background-color:white;
+      border-left:1px solid #eee;
+      border-right:1px solid #eee;
+
+
+  }
+  */
+  p
+  {
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    color: #E1306C;;
+   }
+   /*p
+   {
+
+      text-align:center;
+      margin-top:20px;
+      font-size:25px;
+  }
+  */
+  .nav-bottom{
+
+      width:100%;
+      max-width:768px;
+      position:fixed;
+      margin:auto;
+      bottom:0;
+      background-color: white;
+
+  }
+  .nav-bottom ul{
+
+      list-style-type:none;
+      margin:0;
+      padding:0;
+      overflow:hidden;
+      height:50px;
+      background-color:#f0f0f0;
+
+  }
+  .nav-bottom li{
+      float:left;
+      width:20%;
+
+  }
+  .nav-bottom li a{
+      display:block;
+      text-decoration:none;
+      text-align:center;
+      line-height:50px;
+      color:#ccc;
+      cursor:pointer;
+
+  }
+
+  .tab.active{
+
+      color:black;
+  }
+.img-tab
+ {
+    border-radius: 50%;
+    width: 35px;
+  }
+
+  .nav-tab{
+    float: right;
+  }
+
+</style>
+</head>
+<body>
+
+  <div class="main-container">
+
+  <div class="nav-top">
+
+   <ul>
+
+    <li class="nav-start"><a><i class="fas fa-camera" style="color:black;"></i></a></li>
+
+    <li class="nav-img"><a><img src="instagram_name.png"></a></li>
+
+    <li><a class="nav-end"  href="Search"><i class="fas fa-search" style="color:black;"></i></a></li>
+
+    <li class="nav-end"><a><i class="fas fa-location-arrow" style="color:black;"></i></a></li>
+
+   </ul>
+
+  </div>
+
+   <p>HELLO GREEKS</p>
+
+
+  <div class="nav-bottom">
+
+    <ul>
+      <li><a class="tab active"  href="Home"><i class="fas fa-home" style="color: black;"></i></a></li>
+
+      <li><a class="tab"><i class="fas fa-play" style="color: black;"></i></a></li>
+
+     <li><a class="tab" href="Upload" ><i class="fas fa-plus-square" style="color: black;"></i></a></li>
+
+     <li><a class="tab" href="Users"><i class="fas fa-heart" style="color: black;"></i></a></li>
+
+     <li><a class="img-tab"><img src="avatar.jpg" alt="Guti"></li>
+
+
+    </ul>
+
+  </div>
+
+
+ </div>
+</body>
+</html>
